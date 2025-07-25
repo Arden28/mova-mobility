@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<!--
+Template name: Nova
+Template author: FreeBootstrap.net
+Author website: https://freebootstrap.net/
+License: https://freebootstrap.net/license
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Móva Mobility - Transport et Mobilité Urbaine</title>
+     
+    <!-- ======= Google Font =======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+    <!-- End Google Font-->
+    
+    <!-- ======= Styles =======-->
+    <link href="assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendors/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="assets/vendors/glightbox/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendors/aos/aos.css" rel="stylesheet">
+    <!-- End Styles-->
+    
+    <!-- ======= Theme Style =======-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- End Theme Style-->
+    
+    <!-- ======= Apply theme =======-->
+    <script>
+      // Apply the theme as early as possible to avoid flicker
+      (function() {
+      const storedTheme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-bs-theme', storedTheme);
+      })();
+    </script>
+  </head>
+  <body class="overflow-x-hidden">
+    
+    
+    <!-- ======= Site Wrap =======-->
+    <div class="site-wrap">
+      
+      <!-- ======= Header =======-->
+      <header class="fbs__net-navbar navbar navbar-expand-lg dark" aria-label="freebootstrap.net navbar">
+        <div class="container d-flex align-items-center justify-content-between">
+          
+          
+          <!-- Start Logo-->
+          <a class="navbar-brand w-auto" href="index.html">
+            <!-- If you use a text logo, uncomment this if it is commented-->
+            <!-- Vertex--> 
+            
+            <!-- If you plan to use an image logo, uncomment this if it is commented-->
+            
+            <!-- logo dark<img class="logo dark img-fluid" src="assets/images/logo-dark.svg" alt="FreeBootstrap.net image placeholder"> 
+            
+             <img class="logo light img-fluid" src="assets/images/logo-light.svg" alt="FreeBootstrap.net image placeholder">
+            logo light-->
+              <span>Mova Logo</span>
+            </a>
+          <!-- End Logo-->
+          
+          <!-- Start offcanvas-->
+          <div class="offcanvas offcanvas-start w-75" id="fbs__net-navbars" tabindex="-1" aria-labelledby="fbs__net-navbarsLabel">
+            
+            
+            <div class="offcanvas-header">
+              <div class="offcanvas-header-logo">
+                <!-- If you use a text logo, uncomment this if it is commented-->
+                
+                <!-- h5#fbs__net-navbarsLabel.offcanvas-title Vertex-->
+                
+                <!-- If you plan to use an image logo, uncomment this if it is commented-->
+                <a class="logo-link" id="fbs__net-navbarsLabel" href="index.html">
+                  
+                  
+                  <!-- logo dark--><img class="logo dark img-fluid" src="assets/images/logo-dark.svg" alt="FreeBootstrap.net image placeholder"> 
+                  
+                  <!-- logo light--><img class="logo light img-fluid" src="assets/images/logo-light.svg" alt="FreeBootstrap.net image placeholder"></a>
+                
+              </div>
+              <button class="btn-close btn-close-black" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            
+            <div class="offcanvas-body align-items-lg-center">
+              <ul class="navbar-nav nav me-auto ps-lg-5 mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link scroll-link active" aria-current="page" href="#about">Qui sommes nous?</a></li>
+                <li class="nav-item"><a class="nav-link scroll-link" href="#busAccess">BusAccess</a></li>
+                <li class="nav-item"><a class="nav-link scroll-link" href="#movapass">Mova Pass</a></li>
+                <li class="nav-item"><a class="nav-link scroll-link" href="#terrain-impact">Terrain & Impact</a></li>
+                <li class="nav-item"><a class="nav-link scroll-link" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <!-- End offcanvas-->
+          
+          <div class="ms-auto w-auto">
+            
+            
+            <div class="header-social d-flex align-items-center gap-1">
+              <a class="btn btn-primary py-2 rounded-5" href="#">Je réserve mon bus</a>
+              
+              <button class="fbs__net-navbar-toggler justify-content-center align-items-center ms-auto" data-bs-toggle="offcanvas" data-bs-target="#fbs__net-navbars" aria-controls="fbs__net-navbars" aria-label="Toggle navigation" aria-expanded="false">
+                <svg class="fbs__net-icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="21" x2="3" y1="6" y2="6"></line>
+                  <line x1="15" x2="3" y1="12" y2="12"></line>
+                  <line x1="17" x2="3" y1="18" y2="18"></line>
+                </svg>
+                <svg class="fbs__net-icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 6 6 18"></path>
+                  <path d="m6 6 12 12"></path>
+                </svg>
+              </button>
+              
+            </div>
+            
+          </div>
+        </div>
+      </header>
+      <!-- End Header-->
+      
+      <!-- ======= Main =======-->
+      <main>
+               
+        <!-- ======= Hero =======-->
+        <section class="hero__v6 section mb-3" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mb-4 mb-lg-0">
+                <div class="row">
+                  <div class="col-lg-11"><span class="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0">Móva Mobility</span>
+                    <h1 class="hero-title mb-3" data-aos="fade-up" data-aos-delay="100">Parce que se déplacer, <span class="" style="color: #fa9a00;">c'est exister</span></h1>
+                    <p class="hero-description mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="200">Découvrez Móva Mobility, votre solution pour des déplacements simples et accessibles.</p>
+                    <div class="cta d-flex gap-2 mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="300">
+                      <a class="btn rounded-5" href="#">Je réserve mon bus</a>
+                      <a class="btn btn-white-outline rounded-5" href="#">En savoir plus 
+                        <svg class="lucide lucide-arrow-up-right" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M7 7h10v10"></path>
+                          <path d="M7 17 17 7"></path>
+                        </svg></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="hero-img">
+                  <img class="img-main rounded-4" src="assets/images/hero-img-1-min.jpg" height="500px" alt="Hero Image" data-aos="fade-in" data-aos-delay="500"></div>
+              </div>
+            </div>
+          </div>
+          <!-- End Hero-->
+        </section>
+        <!-- End Hero-->
+        
+        <!-- ======= About =======-->
+        <section class="about__v4 section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 order-md-2">
+                <div class="row justify-content-end">
+                  <div class="col-md-11 mb-4 mb-md-0">
+                    <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">À propos de nous</span>
+                    <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">Redéfinir la mobilité urbaine avec des solutions de transport fiables et accessibles</h2>
+                    <div data-aos="fade-up" data-aos-delay="200">
+                      <p>Créée avec la vision de transformer les déplacements en ville, Móva Mobility est une entreprise innovante dédiée à offrir des solutions de transport simples, sécurisées et adaptées à tous.</p>
+                      <p>Notre plateforme moderne garantit des trajets fluides et confortables, vous permettant de vous déplacer en toute confiance, que ce soit pour un événement spécial ou vos trajets quotidiens.</p>
+                    </div>
+                    <h4 class="small fw-bold mt-4 mb-3" data-aos="fade-up" data-aos-delay="300">Valeurs et vision</h4>
+                    <ul class="d-flex flex-row flex-wrap list-unstyled gap-3 features" data-aos="fade-up" data-aos-delay="400">
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Innovation</span></li>
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Fiabilité</span></li>
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Accessibilité</span></li>
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Confort</span></li>
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Engagement</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6"> 
+                <div class="img-wrap position-relative">
+                  <img class="img-fluid rounded-4" src="assets/images/about_2-min.jpg" alt="Image d'un bus Móva Mobility" data-aos="fade-up" data-aos-delay="0">
+                  <div class="mission-statement p-4 rounded-4 d-flex gap-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="mission-icon text-center rounded-circle"><i class="bi bi-bus-front fs-4"></i></div>
+                    <div>
+                      <h3 class="text-uppercase fw-bold">Notre mission</h3>
+                      <p class="fs-5 mb-0">Faciliter les déplacements de chacun en offrant des services de transport fiables, confortables et accessibles à tous.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End About-->
+         
+        <!-- ======= Features =======-->
+        <section class="section features__v2" id="features">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="d-lg-flex p-5 rounded-4 content" data-aos="fade-in" data-aos-delay="0">
+                  <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
+                      <div class="row"> 
+                        <div class="col-lg-11">
+                          <div class="h-100 flex-column justify-content-between d-flex">
+                            <div>
+                              <h2 class="mb-4">Pourquoi Choisir Móva Mobility</h2>
+                              <p class="mb-5">Découvrez une mobilité urbaine réinventée avec nos services de transport fiables, accessibles et intuitifs. Que ce soit pour un événement spécial ou vos trajets quotidiens, Móva Mobility vous offre confort et simplicité à chaque déplacement.</p>
+                            </div>
+                            <div class="align-self-start"><a class="glightbox btn btn-play d-inline-flex align-items-center gap-2" href="https://www.youtube.com/watch?v=DQx96G4yHd8" data-gallery="video"><i class="bi bi-play-fill"></i> Voir la video</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="row justify-content-end">
+                        <div class="col-lg-11">
+                          <div class="row">
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="0">
+                              <div class="icon text-center mb-4"><i class="bi bi-bus-front fs-4"></i></div>
+                              <h3 class="fs-6 fw-bold mb-3">Réservation Facile</h3>
+                              <p>Planifiez vos trajets ou réservez un bus en quelques clics via notre site ou application mobile.</p>
+                            </div>
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                              <div class="icon text-center mb-4"><i class="bi bi-shield-check fs-4"></i></div>
+                              <h3 class="fs-6 fw-bold mb-3">Fiabilité Garantie</h3>
+                              <p>Des bus modernes et ponctuels pour assurer un transport sans faille à chaque événement.</p>
+                            </div>
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                              <h3 class="fs-6 fw-bold mb-3">Support Client Dédié</h3>
+                              <div class="icon text-center mb-4"><i class="bi bi-headset fs-4"></i></div>
+                              <p>Assistance 24/7 par chat, email ou téléphone pour répondre à toutes vos questions.</p>
+                            </div>
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                              <div class="icon text-center mb-4"><i class="bi bi-ticket-perforated fs-4"></i></div>
+                              <h3 class="fs-6 fw-bold mb-3">Mova Pass Avantages</h3>
+                              <p>Trajets illimités et réductions exclusives pour une mobilité urbaine sans contraintes.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Features-->
+
+        <!-- ======= BusAccess =======-->
+        <section class="section testimonials__v2 services__v3" id="busAccess">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-8 mx-auto text-center"><span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">BusAccess</span>
+                <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100">Location de bus pour tous vos événements</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Réservez un bus pour vos mariages, obsèques, sorties scolaires ou tout autre événement avec Móva Mobility.</p>
+              </div>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div>
+                    <span class="icon mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <circle cx="7" cy="18" r="2"></circle>
+                        <circle cx="17" cy="18" r="2"></circle>
+                      </svg>
+                    </span>
+                    <h3 class="fs-5 mb-3">Mariages</h3>
+                    <p class="mb-4">Transportez vos invités en toute élégance pour votre jour spécial.</p>
+                  </div>
+                  <a class="special-link d-inline-flex gap-2 align-items-center text-decoration-none" href="#">
+                    <span class="icons"><i class="icon-1 bi bi-arrow-right-short"></i><i class="icon-2 bi bi-arrow-right-short"></i></span>
+                    <span>Réserver maintenant</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div>
+                    <span class="icon mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <circle cx="7" cy="18" r="2"></circle>
+                        <circle cx="17" cy="18" r="2"></circle>
+                      </svg>
+                    </span>
+                    <h3 class="fs-5 mb-3">Obsèques</h3>
+                    <p class="mb-4">Un transport fiable et respectueux pour les cérémonies funéraires.</p>
+                  </div>
+                  <a class="special-link d-inline-flex gap-2 align-items-center text-decoration-none" href="#">
+                    <span class="icons"><i class="icon-1 bi bi-arrow-right-short"></i><i class="icon-2 bi bi-arrow-right-short"></i></span>
+                    <span>Réserver maintenant</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div>
+                    <span class="icon mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <circle cx="7" cy="18" r="2"></circle>
+                        <circle cx="17" cy="18" r="2"></circle>
+                      </svg>
+                    </span>
+                    <h3 class="fs-5 mb-3">Sorties scolaires</h3>
+                    <p class="mb-4">Des bus sécurisés pour les activités éducatives et récréatives.</p>
+                  </div>
+                  <a class="special-link d-inline-flex gap-2 align-items-center text-decoration-none" href="#">
+                    <span class="icons"><i class="icon-1 bi bi-arrow-right-short"></i><i class="icon-2 bi bi-arrow-right-short"></i></span>
+                    <span>Réserver maintenant</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row mt-5">
+              <div class="col-md-6 mx-auto text-center">
+                <h4 class="mb-4" data-aos="fade-up" data-aos-delay="300">Témoignage client</h4>
+                <div class="testimonial rounded-4 p-4" data-aos="fade-up" data-aos-delay="400">
+                  <blockquote class="mb-3">
+                    “Grâce à BusAccess, nous avons pu organiser le transport pour notre mariage sans stress. Les bus étaient confortables et le service impeccable !”
+                  </blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/person-sq-2-min.jpg" alt="Témoignage client"></div>
+                    <div class="lh-base"><strong class="d-block">Marie Dubois</strong><span>Cliente satisfaite</span></div>
+                  </div>
+                </div>
+                <a class="btn btn-primary mt-4" href="#">Réserver un bus maintenant</a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- Services-->
+        
+        <!-- ======= How it works =======-->
+        <section class="section howitworks__v1" id="how-it-works">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-6 text-center mx-auto">
+                <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Comment ça marche</span>
+                <h2 data-aos="fade-up" data-aos-delay="100">Réservez Votre Bus en Toute Simplicité</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Avec BusAccess de Móva Mobility, organiser le transport pour vos événements est rapide et sans stress. Suivez ces étapes pour réserver votre bus :</p>
+              </div>
+            </div>
+            <div class="row g-md-5">
+              <div class="col-md-6 col-lg-3">
+                <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative" data-aos="fade-up" data-aos-delay="0">
+                  <div data-aos="fade-right" data-aos-delay="500"><img class="arch-line" src="assets/images/arch-line.svg" alt="Ligne décorative"></div>
+                  <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
+                  <div>
+                    <h3 class="fs-5 mb-4">Choisissez votre événement</h3>
+                    <p>Sélectionnez le type d’événement (mariage, cérémonie, sortie scolaire) et indiquez vos besoins sur notre site ou via l’app.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+                <div class="step-card reverse text-center h-100 d-flex flex-column justify-content-start position-relative">
+                  <div data-aos="fade-right" data-aos-delay="1100"><img class="arch-line reverse" src="assets/images/arch-line-reverse.svg" alt="Ligne décorative inversée"></div>
+                  <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
+                  <h3 class="fs-5 mb-4">Personnalisez votre réservation</h3>
+                  <p>Précisez la date, l’heure, le lieu et le nombre de passagers pour un service adapté à votre événement.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1200">
+                <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative">
+                  <div data-aos="fade-right" data-aos-delay="1700"><img class="arch-line" src="assets/images/arch-line.svg" alt="Ligne décorative"></div>
+                  <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
+                  <h3 class="fs-5 mb-4">Confirmez et payez</h3>
+                  <p>Validez votre réservation et effectuez un paiement sécurisé directement via notre plateforme.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1800">
+                <div class="step-card last text-center h-100 d-flex flex-column justify-content-start position-relative">
+                  <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">4</span>
+                  <div>
+                    <h3 class="fs-5 mb-4">Profitez du trajet</h3>
+                    <p>Votre bus arrive à l’heure, prêt à transporter vos invités en toute sécurité et confort.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End How it works-->
+        
+        <!-- Mova Pass Section -->
+        <section class="section pricing__v2 mova-pass-section" id="movapass">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-8 mx-auto text-center">
+                <span class="subtitle text-uppercase mb-3 mova-pass-subtitle" data-aos="fade-up" data-aos-delay="0">Mova Pass</span>
+                <h2 class="h2 fw-bold mb-3 mova-pass-title" data-aos="fade-up" data-aos-delay="100">Liberté Urbaine Sans Limites</h2>
+                <p class="text-lg text-muted max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                  Mova Pass, c'est la liberté de naviguer en ville comme jamais : trajets illimités, priorité à bord et une app qui rend chaque déplacement fluide et intuitif.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="p-5 rounded-4 price-table popular mova-pass-card h-100">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <div class="mova-pass-img mb-4">
+                        <img class="img-fluid rounded-4" src="assets/images/mova-pass-city.jpg" alt="Vue urbaine avec un bus Móva Mobility" data-aos="zoom-in" data-aos-delay="350">
+                      </div>
+                      <h3 class="fs-4 mb-3 mova-pass-card-title">Mova Pass</h3>
+                      <p class="mb-4">Déplacez-vous sans contraintes avec des trajets illimités, des avantages exclusifs et une application intuitive pour une mobilité urbaine sans pareille.</p>
+                      <div class="pricing-features">
+                        <h4 class="text-uppercase fw-bold mb-3">Avantages</h4>
+                        <ul class="list-unstyled d-flex flex-column gap-3">
+                          <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-bus-front-fill"></i></span><span>Trajets illimités en ville</span></li>
+                          <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-bus-front-fill"></i></span><span>Réductions exclusives sur vos courses</span></li>
+                          <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-bus-front-fill"></i></span><span>Embarquement prioritaire</span></li>
+                          <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-bus-front-fill"></i></span><span>App mobile simple et intuitive</span></li>
+                        </ul>
+                      </div>
+                      <div class="mt-4 mb-3"><a class="btn btn-primary bg-white text-black mova-pass-button" href="#">Pré-inscription</a></div>
+                    </div>
+                    <div class="col-2">
+                      <img class="rounded-4 shadow-lg" src="/assets/images/business/business-img-1-min.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6 mx-auto text-center">
+                <p class="text-muted mb-4" data-aos="fade-up" data-aos-delay="400">Embarquez avec Mova Pass et vibrez au rythme de la ville !</p>
+                <a href="#contact" class="btn btn-white-outline mova-pass-button" data-aos="fade-up" data-aos-delay="500">En savoir plus 
+                  <svg class="lucide lucide-arrow-up-right" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Mova Pass -->
+        
+        <!-- ======= Terrain & Impact =======-->
+        <section class="section stats__v3" id="terrain-impact">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-8 mx-auto text-center">
+                <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">How it works</span>
+                <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100">Notre impact sur la mobilité</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Découvrez comment Móva Mobility transforme les déplacements avec des services fiables et des partenariats solides.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="d-flex flex-wrap content rounded-4" data-aos="fade-up" data-aos-delay="0">
+                  <div class="rounded-borders">
+                    <div class="rounded-border-1"></div>
+                    <div class="rounded-border-2"></div>
+                    <div class="rounded-border-3"></div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="2">0</span><span>+</span></h3>
+                      <p class="mb-0">Courses réalisées</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="2">0</span><span>%</span></h3>
+                      <p class="mb-0">Satisfaction client</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="2">0</span><span>+</span></h3>
+                      <p class="mb-0">Partenaires</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6 mx-auto text-center">
+                <h4 class="mb-4" data-aos="fade-up" data-aos-delay="400">Nos partenaires</h4>
+                <div class="logos-images d-flex gap-4 align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="500">
+                  <img class="img-fluid" src="assets/images/partner1-logo.jpg" alt="Partenaire 1" style="width: 110px;">
+                  <img class="img-fluid" src="assets/images/partner2-logo.jpg" alt="Partenaire 2" style="width: 110px;">
+                  <img class="img-fluid" src="assets/images/partner3-logo.jpg" alt="Partenaire 3" style="width: 110px;">
+                </div>
+                <p class="mt-4" data-aos="fade-up" data-aos-delay="600">Rejoignez le mouvement #MonTrajetMova</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Terrain & Impact-->
+        
+        <!-- ======= FAQ =======-->
+        <section class="section faq__v2" id="faq">
+          <div class="container">
+            <div class="row mb-4">
+              <div class="col-md-6 col-lg-7 mx-auto text-center">
+                <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">FAQ</span>
+                <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Questions Fréquentes</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Trouvez des réponses à vos questions sur nos services BusAccess et Mova Pass pour des déplacements fluides et sans stress.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
+                <div class="faq-content">
+                  <div class="accordion custom-accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Quels types d'événements sont couverts par BusAccess ?</button>
+                      </h2>
+                      <div class="accordion-collapse collapse show" id="panelsStayOpen-collapseOne">
+                        <div class="accordion-body">BusAccess de Móva Mobility propose des solutions de transport pour une large gamme d'événements, incluant les mariages, les cérémonies funéraires, les sorties scolaires, les événements d'entreprise et bien plus. Nous personnalisons chaque réservation pour répondre à vos besoins spécifiques, garantissant confort et ponctualité.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">Comment fonctionne le Mova Pass ?</button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="panelsStayOpen-collapseTwo">
+                        <div class="accordion-body">Le Mova Pass est un forfait de mobilité urbaine qui offre des trajets illimités en ville, des réductions exclusives et un accès prioritaire aux bus. Il suffit de s’inscrire via notre site ou application, d’activer votre pass, et de profiter d’une expérience de déplacement fluide et sans contraintes.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">Comment réserver un bus avec BusAccess ?</button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="panelsStayOpen-collapseThree">
+                        <div class="accordion-body">Réserver un bus est simple : visitez notre site ou application, choisissez votre événement, précisez la date, l’heure et le lieu, puis confirmez votre réservation avec un paiement sécurisé. Nos équipes s’assurent que votre bus arrive à l’heure, prêt à transporter vos invités en tout confort.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">L’application Móva est-elle disponible sur tous les appareils ?</button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="panelsStayOpen-collapseFour">
+                        <div class="accordion-body">Oui ! Notre application Móva Mobility est entièrement compatible avec les smartphones et tablettes iOS et Android. Elle offre une interface intuitive pour réserver des bus, gérer votre Mova Pass et suivre vos trajets en temps réel.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">Proposez-vous un support client pour les réservations ?</button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="panelsStayOpen-collapseFive">
+                        <div class="accordion-body">Absolument ! Notre équipe de support client est disponible 24/7 par chat, email ou téléphone pour répondre à toutes vos questions, vous aider avec vos réservations ou résoudre tout problème lié à vos trajets. Votre satisfaction est notre priorité.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End FAQ-->
+        
+        
+        <!-- ======= Contact =======-->
+        <section class="section contact__v2" id="contact">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-6 col-lg-7 mx-auto text-center">
+                <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Contact</span>
+                <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Contactez-nous</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Pour toute question ou réservation, notre équipe est là pour vous aider.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex gap-5 flex-column">
+                  <div class="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="0">
+                    <div class="icon d-block"><i class="bi bi-telephone"></i></div>
+                    <span><span class="d-block">Téléphone</span><strong>+(33) 456 7890</strong></span>
+                  </div>
+                  <div class="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon d-block"><i class="bi bi-send"></i></div>
+                    <span><span class="d-block">Email</span><strong>contact@mova-mobility.com</strong></span>
+                  </div>
+                  <div class="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon d-block"><i class="bi bi-geo-alt"></i></div>
+                    <span><span class="d-block">Adresse</span>
+                      <address class="fw-bold">123 Rue Principale, Paris, France</address></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-wrapper" data-aos="fade-up" data-aos-delay="300">
+                  <form id="contactForm">
+                    <div class="row gap-3 mb-3">
+                      <div class="col-md-12">
+                        <label class="mb-2" for="name">Nom</label>
+                        <input class="form-control" id="name" type="text" name="name" required="">
+                      </div>
+                      <div class="col-md-12">
+                        <label class="mb-2" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email" required="">
+                      </div>
+                    </div>
+                    <div class="row gap-3 mb-3">
+                      <div class="col-md-12">
+                        <label class="mb-2" for="subject">Sujet</label>
+                        <input class="form-control" id="subject" type="text" name="subject">
+                      </div>
+                    </div>
+                    <div class="row gap-3 gap-md-0 mb-3">
+                      <div class="col-md-12">
+                        <label class="mb-2" for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required=""></textarea>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary fw-semibold" type="submit">Envoyer le message</button>
+                  </form>
+                  <div class="mt-3 d-none alert alert-success" id="successMessage">Message envoyé avec succès !</div>
+                  <div class="mt-3 d-none alert alert-danger" id="errorMessage">Échec de l'envoi du message. Veuillez réessayer plus tard.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Contact-->
+        
+        <!-- ======= Footer =======-->
+        <footer class="footer pt-5 pb-5">
+          <div class="container">
+            <div class="row mb-5 pb-4">
+              <div class="col-md-7">
+                <h2 class="fs-5">Inscrivez-vous à notre newsletter</h2>
+                <p>Restez informé des dernières offres et actualités de Móva Mobility !</p>
+              </div>
+              <div class="col-md-5">
+                <form class="d-flex gap-2">
+                  <input class="form-control" type="email" placeholder="Votre email" required="">
+                  <button class="btn btn-primary fs-6" type="submit">S'abonner</button>
+                </form>
+              </div>
+            </div>
+            <div class="row justify-content-between mb-5 g-xl-5">
+              <div class="col-md-4 mb-5 mb-lg-0">
+                <h3 class="mb-3">À propos</h3>
+                <p class="mb-4">Móva Mobility facilite vos déplacements avec des solutions de transport fiables et accessibles pour tous.</p>
+              </div>
+              <div class="col-md-7">
+                <div class="row g-2">
+                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="mb-3">Entreprise</h3>
+                    <ul class="list-unstyled">
+                      <li><a href="#busaccess">BusAccess</a></li>
+                      <li><a href="#movapass">Mova Pass</a></li>
+                      <li><a href="#terrain-impact">Terrain & Impact</a></li>
+                      <li><a href="page-terms-conditions.html">Conditions générales</a></li>
+                      <li><a href="page-privacy-policy.html">Politique de confidentialité</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact">
+                    <h3 class="mb-3">Contact</h3>
+                    <p class="d-flex mb-3"><i class="bi bi-geo-alt-fill me-3"></i><span>123 Rue Principale, Paris, France</span></p>
+                    <a class="d-flex mb-3" href="mailto:contact@mova-mobility.com"><i class="bi bi-envelope-fill me-3"></i><span>contact@mova-mobility.com</span></a>
+                    <a class="d-flex mb-3" href="tel://+1234567890"><i class="bi bi-telephone-fill me-3"></i><span>+33 456 7890</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row credits pt-3">
+              <div class="col-xl-8 text-center text-xl-start mb-3 mb-xl-0">
+                ©
+                <script>document.write(new Date().getFullYear());</script> Móva Mobility. 
+                Tous droits réservés
+              </div>
+              <div class="col-xl-4 justify-content-start justify-content-xl-end quick-links d-flex flex-column flex-xl-row text-center text-xl-start gap-1">Conçu par <a href="https://koverae.com" target="_blank">Koverae Technologies</a></div>
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer-->
+        
+      </main>
+    </div>
+    
+    <!-- ======= Back to Top =======-->
+    <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button>
+    <!-- End Back to top-->
+    
+    <!-- ======= Javascripts =======-->
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/gsap/gsap.min.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/vendors/glightbox/glightbox.min.js"></script>
+    <script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendors/aos/aos.js"></script>
+    <script src="assets/vendors/purecounter/purecounter.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/send_email.js"></script>
+    <!-- End JavaScripts-->
+  </body>
+</html>
