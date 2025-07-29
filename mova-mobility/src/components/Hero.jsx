@@ -11,7 +11,7 @@ function Hero({setShowModal}) {
                 <div className="row">
                   <div className="col-lg-11"><span className="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0">Móva Mobility</span>
                     <h1 className="hero-title mb-3" data-aos="fade-up" data-aos-delay="100">Parce que se déplacer, <span className="" style={{ color: "#005921" }}>c'est exister</span></h1>
-                    <p className="hero-description mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="200">Móva Mobility, c’est la liberté de se déplacer autrement : simple, agile et à portée de main</p>
+                    <p className="hero-description mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="200">Móva Mobility, c’est la liberté de se déplacer autrement : simple, agile et à portée de main.</p>
                     <div className=" d-flex gap-2 mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="300">
                       <a className="btn btn-primary rounded-5" href="tel:+242068259802">Je réserve mon bus</a>
                       <a className="btn btn-white-outline rounded-5" href="#">En savoir plus 
