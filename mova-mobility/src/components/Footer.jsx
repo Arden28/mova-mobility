@@ -75,15 +75,16 @@ function Footer() {
                   <li><a href="#busaccess">BusAccess</a></li>
                   <li><a href="#movapass">Mova Pass</a></li>
                   <li><a href="#terrain-impact">Terrain & Impact</a></li>
-                  <li><a href="page-terms-conditions.html">Conditions générales</a></li>
-                  <li><a href="page-privacy-policy.html">Politique de confidentialité</a></li>
+                  <li><a href="#">Conditions générales</a></li>
+                  <li><a href="#">Politique de confidentialité</a></li>
                 </ul>
               </div>
               <div className="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact">
                 <h3 className="mb-3">Contact</h3>
-                <p className="d-flex mb-3"><i className="bi bi-geo-alt-fill me-3"></i><span>123 Rue Principale, Paris, France</span></p>
+                <p className="d-flex mb-3"><i className="bi bi-geo-alt-fill me-3"></i><span>74 / 80 Rue Roque de Fillol, 92800 Puteaux, France</span></p>
+                <p className="d-flex mb-3"><i className="bi bi-geo-alt-fill me-3"></i><span>Av des 3 martyrs, Brazzaville, Congo Brazzaville</span></p>
                 <a className="d-flex mb-3" href="mailto:contact@mova-mobility.com"><i className="bi bi-envelope-fill me-3"></i><span>contact@mova-mobility.com</span></a>
-                <a className="d-flex mb-3" href="tel://+1234567890"><i className="bi bi-telephone-fill me-3"></i><span>+33 456 7890</span></a>
+                <a className="d-flex mb-3" href="tel://+242068259802"><i className="bi bi-telephone-fill me-3"></i><span>+242 06 825 9802</span></a>
               </div>
             </div>
           </div>

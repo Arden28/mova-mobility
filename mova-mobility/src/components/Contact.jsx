@@ -42,7 +42,7 @@ function Contact() {
             <div className="d-flex gap-5 flex-column">
               <div className="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="0">
                 <div className="icon d-block"><i className="bi bi-telephone"></i></div>
-                <span><span className="d-block">Téléphone</span><strong>+(33) 456 7890</strong></span>
+                <span><span className="d-block">Téléphone</span><strong>+242 06 825 9802</strong></span>
               </div>
               <div className="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="100">
                 <div className="icon d-block"><i className="bi bi-send"></i></div>
@@ -50,9 +50,15 @@ function Contact() {
               </div>
               <div className="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="200">
                 <div className="icon d-block"><i className="bi bi-geo-alt"></i></div>
-                <span><span className="d-block">Adresse</span>
-                  <address className="fw-bold">123 Rue Principale, Paris, France</address></span>
+                <span><span className="d-block">Adresse France</span>
+                  <address className="fw-bold">74 / 80 Rue Roque de Fillol, 92800 Puteaux, France</address></span>
               </div>
+              <div className="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="200">
+                <div className="icon d-block"><i className="bi bi-geo-alt"></i></div>
+                <span><span className="d-block">Adresse Congo</span>
+                  <address className="fw-bold">Av des 3 martyrs, Brazzaville, Congo Brazzaville</address></span>
+              </div>
+
             </div>
           </div>
           <div className="col-md-6">

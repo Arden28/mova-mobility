@@ -14,7 +14,7 @@ function About() {
               className="subtitle text-uppercase mb-3 d-inline-block" 
               data-aos="fade-up" 
               data-aos-delay="0"
-              style={{ color: '#FA9A00', fontWeight: 600 }}
+              style={{ fontWeight: 600 }}
             >
               À propos de nous
             </span>
@@ -28,7 +28,7 @@ function About() {
             </h2>
             <div data-aos="fade-up" data-aos-delay="200" style={{ color: '#333' }}>
               <p>
-                Née d’une vision audacieuse, <strong style={{ color: '#FA9A00' }}>Móva Mobility</strong> transforme les déplacements urbains grâce à des solutions de transport fiables, inclusives et intelligentes
+                Née d’une vision audacieuse, <strong >Móva Mobility</strong> transforme les déplacements urbains grâce à des solutions de transport fiables, inclusives et intelligentes
               </p>
               <p>
                 Notre plateforme moderne garantit des trajets fluides et confortables, vous permettant de vous déplacer en toute confiance, que ce soit pour un événement spécial ou vos trajets quotidiens.
@@ -52,7 +52,6 @@ function About() {
                   <span 
                     className="icon rounded-circle text-center d-inline-flex align-items-center justify-content-center"
                     style={{ 
-                      backgroundColor: '#FA9A00', 
                       color: 'white', 
                       width: '32px', 
                       height: '32px' 
@@ -71,7 +70,7 @@ function About() {
         <div className="img-wrap position-relative">
           <img 
             className="img-fluid rounded-4" 
-            src="/assets/images/about-2.png" 
+            src="/assets/images/bus.jpg" 
             alt="Image d'un bus Móva Mobility" 
             data-aos="fade-up" 
             data-aos-delay="0" 
@@ -89,7 +88,6 @@ function About() {
             <div 
               className="mission-icon text-center rounded-circle d-flex align-items-center justify-content-center"
               style={{ 
-                backgroundColor: '#FA9A00', 
                 color: 'white', 
                 width: '48px', 
                 height: '48px' 
@@ -98,7 +96,7 @@ function About() {
               <i className="bi bi-bus-front fs-4"></i>
             </div>
             <div>
-              <h3 className="text-uppercase fw-bold" style={{ color: '#FA9A00' }}>Notre mission</h3>
+              <h3 className="text-uppercase fw-bold" >Notre mission</h3>
               <p className="fs-5 mb-0">Faciliter les déplacements de chacun en offrant des services de transport fiables, confortables et accessibles à tous.</p>
             </div>
           </div>

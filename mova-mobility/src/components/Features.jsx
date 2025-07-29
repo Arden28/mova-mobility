@@ -21,11 +21,11 @@ function Features() {
                   <div className="h-100 flex-column justify-content-between d-flex">
                     <div>
                       <h2 className="mb-4" style={{ color: '#005921' }}>
-                        Pourquoi Choisir <strong style={{ color: '#FA9A00' }}>Móva Mobility</strong>
+                        Pourquoi Choisir <strong>Móva Mobility</strong>
                       </h2>
                       <p className="mb-5" style={{ color: '#333' }}>
                         Parce que se déplacer ne devrait jamais être un casse-tête. Chez 
-                        <strong style={{ color: '#FA9A00' }}> Móva Mobility</strong>, nous croyons que la mobilité urbaine peut être fluide, inclusive et agréable, quel que soit votre âge, votre situation ou votre destination.
+                        <strong> Móva Mobility</strong>, nous croyons que la mobilité urbaine peut être fluide, inclusive et agréable, quel que soit votre âge, votre situation ou votre destination.
                       </p>
                     </div>
                     <div className="align-self-start">
@@ -33,7 +33,7 @@ function Features() {
                         className="glightbox btn btn-play d-inline-flex align-items-center gap-2" 
                         href="https://www.youtube.com/watch?v=DQx96G4yHd8" 
                         data-gallery="video"
-                        style={{ backgroundColor: '#FA9A00', color: 'white', fontWeight: 600 }}
+                        style={{ color: 'white', fontWeight: 600 }}
                       >
                         <i className="bi bi-play-fill"></i> Voir la video
                       </a>
@@ -56,7 +56,7 @@ function Features() {
                         <div 
                           className="icon text-center mb-4 d-inline-block" 
                           style={{ 
-                            color: '#FA9A00', 
+                            
                             backgroundColor: '#0059210D', 
                             padding: '12px', 
                             borderRadius: '50%', 

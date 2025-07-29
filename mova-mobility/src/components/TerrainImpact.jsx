@@ -46,9 +46,9 @@ function TerrainImpact() {
               <div className="col-md-6 mx-auto text-center">
                 <h4 className="mb-4" data-aos="fade-up" data-aos-delay="400">Nos partenaires</h4>
                 <div className="logos-images d-flex gap-4 align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="500">
-                  <img className="img-fluid" src="/assets/images/partner1-logo.jpg" alt="Partenaire 1" style={{ width: "110px" }} />
-                  <img className="img-fluid" src="/assets/images/partner2-logo.jpg" alt="Partenaire 2" style={{ width: "110px" }} />
-                  <img className="img-fluid" src="/assets/images/partner3-logo.jpg" alt="Partenaire 3" style={{ width: "110px" }} />
+                  <img className="img-fluid" src="/assets/images/partner/pepite.png" alt="Partenaire 1" style={{ width: "110px" }} />
+                  {/* <img className="img-fluid" src="/assets/images/partner/koverae.png" alt="Partenaire 2" style={{ width: "110px" }} /> */}
+                  {/* <img className="img-fluid" src="/assets/images/partner3-logo.jpg" alt="Partenaire 3" style={{ width: "110px" }} /> */}
                 </div>
                 <p className="mt-4" data-aos="fade-up" data-aos-delay="600">Rejoignez le mouvement #MonTrajetMova</p>
               </div>

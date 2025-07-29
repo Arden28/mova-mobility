@@ -36,7 +36,7 @@ function MovaPass() {
                       <div className="mt-4 mb-3"><a className="btn btn-primary bg-white text-black mova-pass-button" href="#">Pré-inscription</a></div>
                     </div>
                     <div className="col-2">
-                      <img className="rounded-4 shadow-lg" src="/assets/images/business/business-img-1-min.jpg" alt="" />
+                      <img className="rounded-4 shadow-lg" src="/assets/images/mova-pass.jpg" style={{ height: "500px" }} alt="" />
                     </div>
                   </div>
                 </div>
